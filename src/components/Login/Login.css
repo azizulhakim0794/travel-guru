@@ -1,0 +1,30 @@
+input.btn.btn-lg.btn-warning {
+    margin: 0;
+    margin: auto;
+    position: absolute;
+    width: 461px;
+    height: 50px;
+    left: 50px;
+    top: 306px;
+    background: #F9A51A;
+}
+#cardBody {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    position: absolute;
+    width: 570px;
+    height: 457px;
+    left: 438px;
+    top: 111px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #ABABAB;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.textBlack{
+    color: black!important;
+}
+a.textBlack.nav-link {
+    color: black !important;
+}

@@ -1,0 +1,14 @@
+.for-img{
+    background-image: url(../../images/Image/Rectangle1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+	color:white;
+    position: absolute;
+    height: 900px;
+    width: 100%;
+    filter: brightness(50%);
+    left: 0px;
+    top: 0px;
+}
+
+
