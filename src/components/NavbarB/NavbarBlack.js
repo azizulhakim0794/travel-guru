@@ -1,19 +1,12 @@
 import React from 'react';
-import './NavBar.css'
-import logo from '../../images/Logo.png';
+import './NavbarBlack.css'
 import { Link, Route } from 'react-router-dom';
-import Home from '../Home/Home';
-const NavBar = (props) => {
-        const workForLogin =() => {
-            
-            if(<Route exact path="/home" component={Home} />){
-                document.getElementById('black').style.color = 'white'
-            }
-        }
+import logo from '../../images/Logo.png';
+const NavbarBlack = () => {
     return (
         <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-none header-navbar">
-                        <a class="navbar-brand" id="navBrand"><img class="logo"src={logo} alt=""/></a>
+                        <nav class="navbar navbar-expand-lg navbar-light bg-none header-navbar">
+                        <a class="navbar-brand" id="navBrand"><img class="logoo"src={logo} alt=""/></a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -29,18 +22,18 @@ const NavBar = (props) => {
                         
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link" id ='black' to="/home">Home</Link>
+                                <Link class="nav-link text-black" id ='black' to="/home">Home</Link>
                             </li>
                             <li class="nav-item">
-                            <Link class="nav-link"  to="/booking">Booking</Link>
+                            <Link class="nav-link text-black"  to="/booking">Booking</Link>
                             </li>
                             <li class="nav-item">
-                            <Link class="nav-link"  to="/destination">Destination</Link>
+                            <Link class="nav-link text-black"  to="/destination">Destination</Link>
                             </li>
                             <li class="nav-item">
-                            <Link class="nav-link"  to="/contact">Contact</Link>
+                            <Link class="nav-link text-black"  to="/contact">Contact</Link>
                             </li>
-                             <button id="login" onClick={workForLogin} onClick={props.onClick} class="btn btn-warning my-2 my-sm-0" type="submit"><Link class="text-white" to="/login">Login</Link></button>
+                             <button id="login" class="btn btn-warning my-2 my-sm-0" type="submit"><Link class="text-white" to="/login">Login</Link></button>
                             </ul>
                             
                             </div>
@@ -49,4 +42,5 @@ const NavBar = (props) => {
         </div>
     );
 };
-export default NavBar;
+
+export default NavbarBlack;

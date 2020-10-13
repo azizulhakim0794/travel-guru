@@ -28,3 +28,88 @@ input.btn.btn-lg.btn-warning {
 a.textBlack.nav-link {
     color: black !important;
 }
+p.createANew {
+    margin-top: 153px;
+    left: 543px;
+    margin-left: 105px;
+}
+.yellowText {
+    color: #f9a51a;
+    cursor: pointer;
+    text-decoration: underline;
+}
+p#or {
+    margin-top: 71px;
+    margin-left: 272px;
+}
+span#dag {
+    position: absolute;
+    width: 432px;
+    height: 22px;
+    left: 70px;
+    top: 483px;
+}
+p.forget.yellowText {
+    margin-left: 376px;
+    margin-top: -19px;
+}
+p#or {
+    margin-top: 0px;
+    margin-left: 193px;
+    background: white;
+    width: 42px;
+    text-align: center;
+}
+.iconConnect{
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    left: 500px;
+    top: 703px;
+    
+}
+.frameIcon{
+    position: absolute;
+width: 461px;
+height: 51px;
+left: 492px;
+top: 696px;
+border: 1px solid #C7C7C7;
+box-sizing: border-box;
+border-radius: 57px;
+cursor: pointer;
+}
+.frameIcon2 {
+    position: absolute;
+    width: 461px;
+    height: 51px;
+    left: 492px;
+    top: 768px;
+    border: 1px solid #C7C7C7;
+    box-sizing: border-box;
+    border-radius: 57px;
+    cursor: pointer;
+}
+
+p.iconText {
+    margin-left: 132px;
+    margin-top: 10px;
+}
+p.iconText2 {
+    margin-left: 132px;
+    margin-top: 12px;
+}
+.image {
+    position: absolute;
+    width: 31px;
+    height: 31.74px;
+    left: 27px;
+    top: 9px;
+}
+.image2 {
+    position: absolute;
+    width: 31px;
+    height: 31.74px;
+    left: 27px;
+    top: 9px;
+}

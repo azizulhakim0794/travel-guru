@@ -4,8 +4,7 @@
 .header-navbar{
 top: 5px;
 }
-img.logo {
-    filter: brightness(0) invert(1);
+img.logoo {
     position: absolute;
     width: 120.26px;
     height: 56px;
@@ -28,7 +27,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-none.header-navbar {
     padding: .5rem 2rem;
     line-height: 1.5;
     text-align: center;
-    color: white ! important;
+    
 }
 a.nav-link:hover{
     background: none;
@@ -51,4 +50,7 @@ a.nav-link:hover{
 }
 a:hover{
     text-decoration:none;
+}
+a.text-black {
+    color: black ! important;
 }
